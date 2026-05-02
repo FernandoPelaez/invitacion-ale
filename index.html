@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Una invitación para Ale</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="page">
+    <section class="card">
+
+      <div class="sparkles">
+        <span class="spark s1">✦</span>
+        <span class="spark s2">✦</span>
+        <span class="spark s3">✦</span>
+      </div>
+
+      <p class="eyebrow">Para ti, con cariño 💌</p>
+
+      <h1>
+        <em>Ale,</em><br>
+        ¿quieres cenar<br>conmigo?
+      </h1>
+
+      <div class="divider">
+        <span class="divider-line"></span>
+        <span class="divider-diamond">◆</span>
+        <span class="divider-line"></span>
+      </div>
+
+      <p class="message">
+  Hay noches que merecen ser especiales,<br>
+  y creo que esta podría ser una de ellas.<br>
+  Solo necesito que me digas una cosa:<br>
+  <em>¿me das la oportunidad de demostrarlo?</em>
+</p>
+
+      <div class="details">
+        <a class="detail-item place-link"
+           href="https://maps.google.com/?q=Los+Jarochos+Los+Mochis"
+           target="_blank"
+           rel="noopener noreferrer">
+          <span class="detail-icon">📍</span>
+          <p>Cena en<br><strong>Los Jarochos</strong></p>
+        </a>
+        <div class="detail-item">
+          <span class="detail-icon">🕗</span>
+          <p>Mañana a las 8:00 pm</p>
+        </div>
+        <div class="detail-item">
+          <span class="detail-icon">🌙</span>
+          <p>Plan bonito y tranquilo</p>
+        </div>
+      </div>
+
+      <div class="actions" id="actionsArea">
+        <button class="btn btn-yes" id="yesBtn">Sí, vamos 💖</button>
+        <button class="btn btn-no" id="noBtn">No 😭</button>
+      </div>
+
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <div class="modal-confetti">
+        <span>🎉</span>
+        <span>💖</span>
+        <span>✨</span>
+        <span>🌹</span>
+        <span>💫</span>
+        <span>🥂</span>
+      </div>
+      <h2>¡Sabía que dirías que sí! 😌</h2>
+      <p>
+        Mañana a las 8:00 pm te espero.<br>
+        Vamos a cenar a Los Jarochos.<br>
+        Yo pongo la invitación,<br>
+        tú la sonrisa. 🌙
+      </p>
+      <button class="modal-close" id="modalClose">¡No puedo esperar! 💃</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
